@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.269);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  .navbar-heading {
+    color: #4e2ce6;
+    border: 4px solid #4e2ce6;
+    padding: 10px 18px 10px 18px;
+    margin-left: 100px;
+  }
+
+  .navbar-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+  }
+  
+  .login-button,
+  .signup-button {
+    border: 2px solid #4e2ce6;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    color: #4e2ce6;
+    background-color: white;
+    margin-right: 10px;
+  }
+  
+  .signup-button {
+    background-color: #4e2ce6;
+    color: white;
+  }
+
+  .containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 95px;
+  }
+
+  .container-1 {
+    height: 87vh;
+    width: 40%;
+    background-image: url("https://st3.depositphotos.com/1022135/33232/i/450/depositphotos_332320900-stock-photo-senior-businesswoman-young-business-people.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.5; */
+    
+  }
+
+  .image-overlay{
+    height: 87vh;
+    width: 100%;
+    background-color: #5b40ad98;
+  }
+
+  .image-overlay h1{
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: 100px;
+  }
+
+  .container-2 {
+    height: 87vh;
+    width: 60%;
+  }
+
+  .container-2 h1{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .container-2 form{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .container-2 form input{
+    border: lightgray solid 1px;
+    height: 40px;
+    width: 600px;
+    background-color: rgba(211, 211, 211, 0.272);
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .container-2 form .firstname{
+    width: 280px;
+  }
+
+  .container-2 form .lastname{
+    width: 300px;
+    position: relative;
+    right: 75px;
+    z-index: -20;
+  }
+
+  .container-2 form .lastlabel{
+    position: relative;
+    bottom: 41px;
+    left: 12px;
+    z-index: -50;
+  }
+
+  .container-2 form .check{
+    position: relative;
+    right: 280px;
+  }
+
+  .container-2 form .checking{
+    position: relative;
+    bottom: 65px;
+    left: 70px;
+  }
+
+  .container-2 form .account{
+    margin-left: 165px;
+  }
+
+  .container-2 form button{
+    padding-left: 285px;
+    padding-right: 285px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #4e2ce6;
+    border: none;
+    font-size: medium;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+
+  .container-2 form a{
+    text-decoration: none;
+    color: #4e2ce6;
+  }
+
+  .container-2 form span{
+    margin-left: 180px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  .hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+    &:before {
+      content: '';
+      
+      background: linear-gradient(to right, transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+    &:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+  
+      padding: 0 .5em;
+      line-height: 1.5em;
+      
+      color: #818078;
+      background-color: #fcfcfa;
+    }
+  }
+
+  .google{
+    margin-left: 100px;
+    /* padding-left: 220px; */
+    padding-right: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #DB4437;
+    border: none;
+    font-size: medium;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .facebook{
+    margin-left: 100px;
+    /* padding-left: 215px; */
+    padding-right: 215px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #4267B2;
+    border: none;
+    font-size: medium;
+    border-radius: 30px;
+    /* margin-top: 5px; */
+  }
+
+  .google i{
+    margin-left: 30px;
+    margin-right: 180px;
+  }
+
+  .facebook i{
+    margin-left: 30px;
+    margin-right: 180px;
+  }

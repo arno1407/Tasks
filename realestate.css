@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 60;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: grey;
+}
+
+.image-1{
+    margin-top: 100px;
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-overlay{
+    height: 90vh;
+    width: 100%;
+    background-color: #1e4f2b74;
+}
+
+.image-content{
+    position: relative;
+    top: 150px;
+    left: 70px;
+    color: white;
+}
+
+.image-content hr{
+    position: absolute;
+    width: 300px;
+    top: 140px;
+    left: -70px;
+    height: 1.2px;
+    background-color: white;
+}
+
+.image-content p strong{
+    position: relative;
+    top: 30px;
+}
+
+.image-content h1{
+    font-size: 4em;
+}
+
+.image-content button{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 55px;
+    align-items: center;
+}
+
+.image-2{
+    color: white;
+    height: 90vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(120,112,112,1) 52%, rgba(255,255,255,1) 100%);
+    text-align: center;
+}
+
+.image-2 .image-overlay-1 h1{
+    position: relative;
+    top: 90px;
+}
+
+.image-overlay-1 .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 160px;
+}
+
+.image-overlay-1 .box{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.269);
+    margin: 0 20px;
+}
+.image-overlay-1 .box-1{
+    background-image: url("https://st.hzcdn.com/simgs/pictures/living-rooms/central-avenue-kukk-architecture-and-design-p-a-img~eaa1ed180e1de09b_14-2182-1-23573cf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-overlay-1 .box-2{
+    background-image: url("https://media.istockphoto.com/id/1213695547/photo/3d-rendering-of-an-elegant-bedroom.jpg?s=612x612&w=0&k=20&c=yxOoaz2IAd9zvtlXeS-Th-AiXhaCtMIxOONfGbtGeG8=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-overlay-1 .box-3{
+    background-image: url("https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/spaces/childrens-room/five-pieces-of-furniture-essential-to-a-functional-kids-room/Title-kids-room-interior-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.milli{
+    font-size: 2.5em;
+    margin-left: 100px;
+}
+
+.image-3{
+    height: 90vh;
+    background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/MSNBC/Components/Photo/_new/110615_spelling_hmed_0549p.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: end;
+}
+
+.image-overlay-2{
+    height: 90vh;
+    width: 100%;
+}
+
+.image-overlay-2 .sell{
+    background-color: black;
+    width: 80px;
+    padding: 10px 50px;
+    text-align: center;
+    position: relative;
+    left: 88%;
+    top: 60px;
+}
+
+.image-overlay-2 .image-content-2{
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.image-overlay-2 .image-content-2 a{
+    color: white;
+}
+
+.image-overlay-2 .btn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.image-overlay-2 .btn button{
+    background-color: transparent;
+    border: white 2px solid;
+    padding: 10px;
+}
+
+
+.image-overlay-2 .btn button:hover{
+    background-color: white;
+    color: transparent;
+}
+
+.image-4{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-4 .table{
+    width: 40%;
+    height: 80%;
+    margin-right: 50px;
+}
+
+.image-4 .left-content button{
+    background-color: white;
+    border: 2px solid gray;
+    color: gray;
+    padding: 10px 30px;
+}
+
+.image-4 .right-content{
+    background-image: url("https://www.tripsavvy.com/thmb/dK3n91d-TBqcqp4bV1G8i3nCLus=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-938174878-534efd6cc28e45e78fae6a841c1e0aaf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-5{
+    height: 90vh;
+    background-color: black;
+    color: white;
+}
+
+.image-5 h1{
+    position: relative;
+    left: 120px;
+    top: 50px;
+}
+
+.image-5 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.image-5 .container .contents{
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.269);
+    margin: 0 100px;
+}
+
+.image-5 button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 42%;
+    margin-top: 40px;
+    padding: 10px 30px;
+}
+
+.image-5 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.image-5 .container .container-1{
+    background-image: url("https://lbcdn.airpaz.com/hotelimages/3119444/beautiful-villa-brilliance-house-2ab418a3ca2df36768c2b21ee33b7ebc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-5 .container .container-2{
+    background-image: url("https://assets.architecturaldigest.in/photos/62f4d46616c88215b7e80d3b/16:9/w_1615,h_908,c_limit/Step%20into%205%20of%20the%20most%20beautiful%20villas%20in%20Bengaluru.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.image-5 .container .overlays{
+    background-color: rgba(255, 255, 255, 0.735);
+    height: 400px;
+    width: 500px;
+    position: relative;
+    bottom: 120px;
+    display: none;
+}
+
+.image-5 .container .contents:hover .overlays{
+    display: block;
+}
+
+.image-5 .container .inside-btn{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 180px;
+    position: relative;
+    right: 50px;
+}
+
+.image-5 .container .contents .yt-box{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    position: relative;
+    top: 282px;
+}
